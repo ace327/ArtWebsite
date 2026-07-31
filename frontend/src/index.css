@@ -1,0 +1,197 @@
+@import "tailwindcss";
+
+.btn-island{
+
+cursor:pointer;
+
+transition:
+transform .25s ease,
+box-shadow .25s ease,
+padding .25s ease;
+
+}
+
+.btn-island:hover{
+
+transform:translateY(-6px);
+
+padding:14px 44px;
+
+}
+
+.btn-island:active{
+
+transform:translateY(-1px) scale(.95);
+
+}
+
+.bn31 {
+  background-image: linear-gradient(to right, #6f00ff 30%, #ff2929 100%);
+  border-radius: 40px;
+  box-sizing: border-box;
+  color: #0072a3;
+  display: block;
+  height: 50px;
+  font-size: 1.4em;
+  padding: 2px;
+  position: relative;
+  text-decoration: none;
+  width: 7em;
+  z-index: 2;
+}
+
+.bn31:hover {
+  color: #fff;
+}
+
+.bn31 .bn31span {
+  align-items: center;
+  background: white;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  transition: background 0.5s ease;
+  width: 100%;
+}
+
+.bn31:hover .bn31span {
+  background: transparent;
+}
+
+
+.gradientclass {
+
+  
+
+  background-image: linear-gradient(to right, #6f00ff 30%, #ff2929 31%, #eb12ca 100%);
+}
+.gradientclass2 {
+
+  
+
+  background-image: linear-gradient(to right, #565656 0%, #060606 100%);
+}
+
+
+.shdw{
+
+
+  box-shadow: 8px 15px 13px rgba(0, 0, 0, 0.550);
+}
+.shdw2{
+
+
+  box-shadow: 4px 7px 13px rgba(0, 0, 0, 0.560);
+}
+
+.bordergradientclass {
+  border-radius: 32px;
+  padding: 2px;
+  background:
+    linear-gradient(#000000, #000000) padding-box,
+    linear-gradient(to bottom, #9b4fff 30%, #ff5151 100%) border-box;
+  border: 2px solid transparent;
+}
+
+
+
+
+.gradient-hover-btn {
+  background: linear-gradient(45deg, #7c3aed, #ec4899);
+  color: white;
+  padding: 12px 24px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-size: 200% 200%;
+}
+
+.gradient-hover-btn:hover {
+  background-position: right center;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(236, 72, 153, 0.4);
+}
+
+
+
+.bargradient{
+
+background-image: linear-gradient(to right, #2b2d42 30%, #4a4e69 100%);
+  
+}
+
+
+
+
+.shimmer-text {
+  font-size: 80px;
+  font-weight: bold;
+
+  background: linear-gradient(
+    120deg,
+    #e70a0a 0%,
+    #ffffff 40%,
+    #00ffff 50%,
+    #ffffff 60%,
+    #ffffff 100%
+  );
+
+  background-size: 200% auto;
+
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+
+  animation: shimmer 3s linear infinite;
+}
+
+
+@keyframes shimmer {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
+.gradient-text {
+  font-size: 40px;
+  font-weight: 800;
+
+  background: linear-gradient(
+    90deg,
+    #22c55e,
+    #06b6d4,
+    #3b82f6,
+    #6505bf,
+    #e6cf00,
+    #eb3503,
+    #ec4899,
+    #fd0ded
+  );
+
+  background-size: 300% 300%;
+
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  color: transparent;
+
+  animation: gradientMove 8s ease infinite;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
