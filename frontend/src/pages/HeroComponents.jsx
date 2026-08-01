@@ -10,6 +10,7 @@ import img4 from "../assets/SmartSelect_20260728_223916_Google.jpg";
 import img5 from '../assets/d002e257349aa40282691f4fd0ac2c6f.jpg.jpeg'
 import img6 from '../assets/WhatsApp Image 2026-07-31 at 7.45.34 PM.jpeg'
 import HeroContainer2 from './HeroContainer2';
+import {Link} from 'react-router-dom'
 
 const HeroComponents = () => {
 
@@ -126,7 +127,7 @@ const currentHeight = expanded ? 320 : boxHeight;
 
             <div className="middlecontainer flex flex-col bg-gray-200 min-h-screen relative left-51">
 
-        
+    
 
 
          <div className="herocontainerdollhole  h-140 bg-gray-200 w-auto top-15 relative">
@@ -154,6 +155,19 @@ const currentHeight = expanded ? 320 : boxHeight;
                             </div>
 
                  <div className="bar h-18 w-200  relative left-124  bottom-89 z-2 rounded-3xl bargradient shdw2"></div>
+
+
+                      <div className="AddingBox bg-yellow-500 h-60 w-110 left-22 rounded-4xl bottom-80 relative">
+
+                        <button className="explore h-34 w-50 bg-blue-600 cursor-pointer">
+                          
+                          
+                          <Link to="/explore">
+                          Explore
+                          </Link> 
+                          </button>
+                      </div>
+              
 
 
 
