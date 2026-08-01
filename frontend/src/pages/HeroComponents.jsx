@@ -9,6 +9,7 @@ import img3 from "../assets/SmartSelect_20260728_223916_Google.jpg";
 import img4 from "../assets/SmartSelect_20260728_223916_Google.jpg";
 import img5 from '../assets/d002e257349aa40282691f4fd0ac2c6f.jpg.jpeg'
 import img6 from '../assets/WhatsApp Image 2026-07-31 at 7.45.34 PM.jpeg'
+import HeroContainer2 from './HeroContainer2';
 
 const HeroComponents = () => {
 
@@ -123,55 +124,12 @@ const currentHeight = expanded ? 320 : boxHeight;
         {/* <div className="search bg-black text-white h-12 w-20 text-center rounded-tl-2xl rounded-bl-2xl"></div> */}
         {/* <img src="frontend\src\assets\hero.png" alt="" srcset="" className='h-12 w-20'/> */}   
 
-            <div className="middlecontainer flex flex-col bg-gray-200 min-h-screen">
+            <div className="middlecontainer flex flex-col bg-gray-200 min-h-screen relative left-51">
 
-          <div className="inputbarcontainer flex sticky top-3 z-80 py-2 "> 
-
-            <input type="text" className='h-12 w-170 border-1 bg-gray-100 hover:bg-gray-300 transition-colors duration-600 rounded-4xl mt-3 ml-4 pl-3 text-2xl' placeholder='Search Collection...'/>
-
-            <div className="relative mt-3 ml-2 ">
+        
 
 
-                       <div
-                         className="categorybar h-12 w-70 bg-white rounded-4xl border cursor-pointer"
-                         onClick={() => setOpen(!open)}
-                       >
-                         <h1 className="text-[24px] justify-center flex mt-1 font-serif items-center">
-                           Browse Categories
-       
-                             <div
-                               className={`icondown ml-3 transition-transform duration-300 ${
-                                 open ? "rotate-180" : ""
-                               }`}
-                             >
-                               <FaAnglesDown />
-                             </div>
-          
-                           </h1>
-                         </div>
-          
-          
-                         {/* Dropdown */}
-                         {open && (
-                           <div className="absolute top-14 left-0 w-70 bg-white border rounded-xl shadow-lg z-50">
-          
-                             {categories.map((category, index) => (
-                      <div
-                        key={index}
-                        className="px-4 py-2 font-serif text-lg hover:bg-gray-200 cursor-pointer"
-                      >
-                        {category}
-                      </div>
-                    ))}
-          
-                  </div>
-                )}
-          
-          </div>
-        </div>
-
-
-         <div className="herocontainerdollhole  h-140 bg-gray-200 w-auto ">
+         <div className="herocontainerdollhole  h-140 bg-gray-200 w-auto top-15 relative">
 
 
 
@@ -208,18 +166,22 @@ const currentHeight = expanded ? 320 : boxHeight;
         </div>
 
 
-        <div className="hercontainer2 flex bg-amber-500">
+        {/* <div className="hercontainer2 flex bg-amber-500 right-50 relative">
 
          
 
           <div className="imagecontainer">
 
 
-            <img src={img6} alt="" className="h-140 w-1000 relative z-60 shdw"/>
+            <img src="" alt="" className="h-140 w-1000 relative z-60 shdw"/>
 
 
           </div>
-        </div>
+        </div> */}
+
+        
+
+        
 
 
 
