@@ -1,6 +1,39 @@
 @import "tailwindcss";
 
+
+
+
+
+@theme {
+  --font-orbitron: "Orbitron", sans-serif;
+  --font-playfair: "Playfair Display", serif;
+  --font-oswald: "Oswald", sans-serif;
+  --font-josefin: "Josefin Sans", sans-serif;
+  --font-anton: "Anton", sans-serif;
+  --font-caveat: "Caveat", cursive;
+  --font-pacifico: "Pacifico", cursive;
+
+  --font-bitcount: "Bitcount Prop Single", sans-serif;
+  --font-libertinus: "Libertinus Math", serif;
+  --font-edu: "Edu VIC WA NT Hand", cursive;
+  --font-archivo: "Archivo Black", sans-serif;
+  --font-ubuntu: "Ubuntu", sans-serif;
+  --font-blackops: "Black Ops One", cursive;
+  --font-germania: "Germania One", cursive;
+  --font-griffy: "Griffy", cursive;
+  --font-lobster2: "Lobster Two", cursive;
+  --font-dancing: "Dancing Script", cursive;
+  --font-lobster: "Lobster", cursive;
+  --font-teko: "Teko", sans-serif;
+  --font-gravitas: "Gravitas One", serif;
+  --font-bree: "Bree Serif", serif;
+  --font-stalinist: "Stalinist One", cursive;
+}
+
+
 .btn-island{
+
+
 
 cursor:pointer;
 
@@ -195,3 +228,56 @@ background-image: linear-gradient(to right, #2b2d42 30%, #4a4e69 100%);
     background-position: 0% 50%;
   }
 }
+
+
+.gradient-text2 { 
+  font-size: 40px;
+  font-weight: 800;
+
+  background: linear-gradient(
+    90deg,
+    #0fb24b,
+    #06bc7d,
+    #069daa,
+    #1396d8,
+    #08983f,
+    #5c9be8,
+    #c109ce,
+    #5803b9
+  );
+
+  background-size: 300% 300%;
+
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  color: transparent;
+
+  animation: gradientMove 20s ease infinite;
+}
+.gradient-text3 { 
+  font-size: 40px;
+  font-weight: 800;
+
+  background: linear-gradient(
+    120deg,  
+    #054cb7,
+    #e536fc,
+    #0a6fc8,
+    #099146,
+    #3f2eae,
+    #7e45f9,
+    #fa25bd,
+    #11b8f0
+  );
+
+  background-size: 300% 300%;
+
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  color: transparent;
+
+  animation: gradientMove 30s ease infinite;
+}
+
