@@ -1,4 +1,5 @@
 import React from 'react'
+import Singularity from '../pages/Singularity'
 
 const Explore = () => {
   return (  
@@ -38,10 +39,10 @@ const Explore = () => {
 
     
       </div>
-        <div className="bigletters h-20 w-322 bg-gray-200 border-2  rounded-2xl border-black mb-2 left-56 relative">
+        <div className="bigletters h-20 w-322 bg-gray-200   rounded-2xl border-black mb-2 left-56 relative">
           
           
-          <h1 className="h-15 w-auto bg-gray-200 text-[40px] gradient-text3 font-serif mt-2">Welcome to your personal art escape</h1>
+          <h1 className="h-15 w-auto bg-gray-200 text-[40px] gradient-text3 font-serif mt-3">Welcome to your personal art escape</h1>
           
           
           
@@ -53,6 +54,17 @@ const Explore = () => {
 
 
       </div>
+
+      <div className="addReactangle h-60 w-374 left-3 relative mt-4 rounded-[11px] bg-gray-900">
+
+
+      </div>
+
+
+      
+
+
+
       </div>
     </div>
   )

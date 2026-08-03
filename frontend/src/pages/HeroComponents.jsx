@@ -11,6 +11,7 @@ import img5 from '../assets/d002e257349aa40282691f4fd0ac2c6f.jpg.jpeg'
 import img6 from '../assets/WhatsApp Image 2026-07-31 at 7.45.34 PM.jpeg'
 import HeroContainer2 from './HeroContainer2';
 import {Link} from 'react-router-dom'
+import Singularity from './Singularity';
 
 const HeroComponents = () => {
 
@@ -70,7 +71,7 @@ const currentHeight = expanded ? 320 : boxHeight;
        
 
     
-  <div className="flex-1 bg-gray-200">
+  <div className="flex-1 bg-black">
         
 
 
@@ -125,24 +126,24 @@ const currentHeight = expanded ? 320 : boxHeight;
         {/* <div className="search bg-black text-white h-12 w-20 text-center rounded-tl-2xl rounded-bl-2xl"></div> */}
         {/* <img src="frontend\src\assets\hero.png" alt="" srcset="" className='h-12 w-20'/> */}   
 
-            <div className="middlecontainer flex flex-col bg-gray-200 min-h-screen relative left-51">
+            <div className="middlecontainer flex flex-col bg-black min-h-400 relative left-51">
 
     
 
 
-         <div className="herocontainerdollhole  h-140 bg-gray-200 w-auto top-15 relative">
+         <div className="herocontainerdollhole  h-140 bg-black w-auto top-15 relative">
 
 
 
                  <div className="img flex">       
 
-        <img src={heroImage} className=' h-100 w-140 relative top-8 left-10 z-3 shdw' alt="" />
+        <img src={heroImage} className=' h-100 w-140 relative top-8 left-10 z-3 shdw rounded-[21px]' alt="" />
 
                  </div>
 
                            <div className="p1 relative left-153 bottom-91 ">
                     <h1 className=" shimmer-text gradient-text">Hello Artist🎨</h1>
-                    <div className="para bg-gray-200 w-94 h-auto"><p className='text-[21px] font-serif'>
+                    <div className="para bg-black w-94 h-auto"><p className='text-[21px] font-serif text-white'>
                       
                       ✓ Showcase Work: Display your art in high resolution. <br />   <br />
                       
@@ -157,16 +158,28 @@ const currentHeight = expanded ? 320 : boxHeight;
                  <div className="bar h-18 w-200  relative left-124  bottom-89 z-2 rounded-3xl bargradient shdw2"></div>
 
 
-                      <div className="AddingBox bg-yellow-500 h-60 w-110 left-22 rounded-4xl bottom-80 relative">
+                      <div className="AddingBox bg-black h-34 w-120 left-22 rounded-4xl bottom-85 relative">
 
-                        <button className="explore h-34 w-50 bg-blue-600 cursor-pointer">
+                        <button className="explore h-25 w-106 bg-blue-600 border-4 rounded-3xl mt-2 left-2 relative cursor-pointer">
                           
                           
                           <Link to="/explore">
+
+                          <h1 className='text-[35px] font-orbitron'>
+
                           Explore
+                          </h1>
+
                           </Link> 
                           </button>
                       </div>
+
+
+
+                      {/* <div className="singu h-80 w-160 left-60 relative bg-amber-300 ">
+
+                        <Singularity />
+                      </div> */}
               
 
 

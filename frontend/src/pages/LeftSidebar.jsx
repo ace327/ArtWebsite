@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-
+import { Link } from "react-router-dom"
 
 const LeftSidebar = () => {
 
@@ -51,9 +51,13 @@ const [boxHeight, setBoxHeight] = useState(320);
         style={{ height: `${sidebarHeight}px` }}
       >
         <ul className="flex flex-col ml-3.5 mt-2 gap-1.5">
-          <button className="h-12 w-42 bg-blue-200 text-center rounded-[22px] text-[20px] pt-2 font-serif bn31">
+
+      <Link to="/home">
+      
+          <button className="h-12 w-42 bg-blue-200 text-center rounded-[22px] text-[20px] pt-2 font-serif bn31 cursor-pointer">
             <span className='bn31span'>Home</span>
           </button>
+      </Link>
           <li className="h-12 w-42 bg-blue-200 text-center rounded-[22px] text-[20px] pt-2 font-serif bn31"><span className='bn31span'>Artist</span></li>
           <li className="h-12 w-42 bg-blue-200 text-center rounded-[22px] text-[20px] pt-2 font-serif bn31"><span className='bn31span'>Art-Ratings</span></li>
           <li className="h-12 w-42 bg-blue-200 text-center rounded-[22px] text-[20px] pt-2 font-serif bn31"><span className='bn31span'>About</span></li>

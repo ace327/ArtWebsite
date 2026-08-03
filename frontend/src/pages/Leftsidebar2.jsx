@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-
+import { Link} from "react-router-dom"
 
 const LeftSidebar = () => {
 
@@ -47,13 +47,17 @@ const [boxHeight, setBoxHeight] = useState(320);
        <div className="sidebarcontainer fixed left-2 top-24 z-100">
     <div className="side1 flex h-auto">
       <div
-        className="slidebar bordergradientclass bg-black border-2 w-50 rounded-4xl shdw transition-all duration-75 overflow-hidden"
+        className="slidebar bordergradientclass  border-2 w-50 rounded-4xl shdw transition-all duration-75 overflow-hidden"
         style={{ height: `${sidebarHeight}px` }}
       >
         <ul className="flex flex-col ml-3.5 mt-2 gap-1.5">
-          <button className="h-12 w-42 bg-blue-200 text-center rounded-[22px] text-[20px] pt-2 font-serif bn31">
+         <Link to="/home" className="cursor-pointer">
+         
+         
+          <button className="h-12 w-42 bg-blue-200 text-center rounded-[22px] text-[20px] pt-2 font-serif bn31 cursor-pointer">
             <span className='bn31span'>Home</span>
           </button>
+         </Link>
           <li className="h-12 w-42 bg-blue-200 text-center rounded-[22px] text-[20px] pt-2 font-serif bn31"><span className='bn31span'>Artist</span></li>
           <li className="h-12 w-42 bg-blue-200 text-center rounded-[22px] text-[20px] pt-2 font-serif bn31"><span className='bn31span'>Art-Ratings</span></li>
           <li className="h-12 w-42 bg-blue-200 text-center rounded-[22px] text-[20px] pt-2 font-serif bn31"><span className='bn31span'>About</span></li>
