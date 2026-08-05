@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react'
 import { FaReact } from "react-icons/fa";
 import { FaAnglesDown } from "react-icons/fa6";
 import heroImage from "../assets/5cb7852a6cd7a5b4428a74ddecdaa2ae.jpg.jpeg";
+import heroImage2 from "../assets/763992746_2428753097617535_4454437692188539522_n.webp";
 import img1 from "../assets/SmartSelect_20260728_223916_Google.jpg";
 import img2 from "../assets/SmartSelect_20260728_223916_Google.jpg";
 import img3 from "../assets/SmartSelect_20260728_223916_Google.jpg";
@@ -71,7 +72,7 @@ const currentHeight = expanded ? 320 : boxHeight;
        
 
     
-  <div className="flex-1 bg-black">
+  <div className="flex-1 bg-white">
         
 
 
@@ -126,24 +127,24 @@ const currentHeight = expanded ? 320 : boxHeight;
         {/* <div className="search bg-black text-white h-12 w-20 text-center rounded-tl-2xl rounded-bl-2xl"></div> */}
         {/* <img src="frontend\src\assets\hero.png" alt="" srcset="" className='h-12 w-20'/> */}   
 
-            <div className="middlecontainer flex flex-col bg-black min-h-400 relative left-51">
+            <div className="middlecontainer flex flex-col bg-white backimage min-h-400 relative left-51" >
 
     
 
 
-         <div className="herocontainerdollhole  h-140 bg-black w-auto top-15 relative">
+         <div className="herocontainerdollhole  h-140 bg-white w-auto top-15 relative " >
 
 
 
                  <div className="img flex">       
 
-        <img src={heroImage} className=' h-100 w-140 relative top-8 left-10 z-3 shdw rounded-[21px]' alt="" />
+        <img src={heroImage2} className=' h-100 w-140 relative top-8 left-10 z-3 shdw rounded-[21px]' alt="" />
 
                  </div>
 
                            <div className="p1 relative left-153 bottom-91 ">
                     <h1 className=" shimmer-text gradient-text">Hello Artist🎨</h1>
-                    <div className="para bg-black w-94 h-auto"><p className='text-[21px] font-serif text-white'>
+                    <div className="para bg-white w-94 h-auto"><p className='text-[21px] font-serif text-black'>
                       
                       ✓ Showcase Work: Display your art in high resolution. <br />   <br />
                       
@@ -158,21 +159,20 @@ const currentHeight = expanded ? 320 : boxHeight;
                  <div className="bar h-18 w-200  relative left-124  bottom-89 z-2 rounded-3xl bargradient shdw2"></div>
 
 
-                      <div className="AddingBox bg-black h-34 w-120 left-22 rounded-4xl bottom-85 relative">
+                     <div className="AddingBox bg-black h-auto w-120 left-22 rounded-4xl bottom-82 relative flex items-center justify-center">
 
-                        <button className="explore h-25 w-106 bg-blue-600 border-4 rounded-3xl mt-2 left-2 relative cursor-pointer">
-                          
-                          
-                          <Link to="/explore">
+  <div className="button-wrapper">
+    <Link to="/explore">
+    
 
-                          <h1 className='text-[35px] font-orbitron'>
+    <button className="button h-30 w-143 font-orbitron  " type="button">
+      Explore
+    </button>
+    <div className="button-bg"></div>
+    </Link>
+  </div>
 
-                          Explore
-                          </h1>
-
-                          </Link> 
-                          </button>
-                      </div>
+</div>
 
 
 

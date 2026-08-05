@@ -35,9 +35,9 @@
         <div className="maincontainer bg-gray-200 z-0">
             <div className="navbar relative top-0 z-50 h-20 bg-gray-200 flex justify-between sticky">
               <div className="heading text-3xl w-360 h-18 mt-1 bg-gray- shdw2 border rounded-[50px] ml-2">   
-              <h1 className='mt-1 text-6xl font-serif text-black ml-22 '>
+              <h1 className='mt-1 text-6xl text-black ml-22 font-lobster2'>
                 Kalantara   
-              </h1>
+              </h1> 
               </div>
             <div className="box-email bg-gray-800 h-18 m-1 w-18 rounded-[100px]"></div>
             </div>

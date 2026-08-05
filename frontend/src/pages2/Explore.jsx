@@ -5,7 +5,7 @@ const Explore = () => {
   return (  
     <div>
 
-      <div className="maincontainer ">
+      <div className="maincontainer bg-gray-200">
 
 
 
@@ -22,12 +22,12 @@ const Explore = () => {
 
         <div className="youarexploring h-30 w-78 left-61 relative top-88">
           <div className="first2 flex">
-            <div className="second2 h-15 w-57 bg-gray-200 text-[45px] font-sans font-bold gradient-text2">You Are</div>
+            <div className="second2 h-15 w-57 bg-gray-200 text-[45px] font-lobster2 font-bold gradient-text2">You Are</div>
             <div className="second2 h-15  w-21 bg-gray-200"></div>
           </div>
           <div className="first2 flex">
             <div className="2second2 h-15  w-21 bg-gray-200"></div>
-            <div className="2second2 h-15  w-57 bg-gray-200 text-[41px] font-sans font-bold gradient-text2">EXPLORING</div>
+            <div className="2second2 h-15  w-57 bg-gray-200 text-[41px] font-lobster2 font-bold gradient-text2">EXPLORING</div>
           </div>
 
         </div>
@@ -39,13 +39,13 @@ const Explore = () => {
 
     
       </div>
-        <div className="bigletters h-20 w-322 bg-gray-200   rounded-2xl border-black mb-2 left-56 relative">
+        <div className="bigletters h-20 w-322 bg-gray-200   rounded-2xl border-black  mb-2 left-56 relative">
           
           
-          <h1 className="h-15 w-auto bg-gray-200 text-[40px] gradient-text3 font-serif mt-3">Welcome to your personal art escape</h1>
+          <h1 className="h-70 ml-5 w-auto bg-gray-200 text-[40px] gradient-text3 font-lobster2 font-bold ">Welcome to your personal art escape</h1>
           
-          
-          
+lobster2
+        
           </div>
       <div className="tectanglecontaer left-56 relative flex gap-2">
         <div className="rectanglearts h-58 w-95 bg-gray-900 relative rounded-2xl"></div>

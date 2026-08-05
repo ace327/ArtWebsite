@@ -1,10 +1,32 @@
 @import "tailwindcss";
 @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400&family=Pacifico&family=Black+Ops+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sekuya&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bahianita&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bigshot+One&display=swap");
 
 
+
+
+@import "tailwindcss";
+
+:root {
+  --time: 8.15s;
+  --delay: 2.25s;
+  --ease: ease-in-out;
+}
+
+/* Animation CSS starts here */
+.shape-svg {
+   max-width:260px;
+    overflow:visible;
+    transform:scale(.7);
+
+}
 
 
 @theme {
+  --font-sekuya: "Sekuya", sans-serif;
+  --font-bahianita: "Bahianita", cursive;
   --font-orbitron: "Orbitron", sans-serif;
   --font-playfair: "Playfair Display", serif;
   --font-oswald: "Oswald", sans-serif;
@@ -12,7 +34,7 @@
   --font-anton: "Anton", sans-serif;
   --font-caveat: "Caveat", cursive;
   --font-pacifico: "Pacifico", cursive;
-
+   --font-bigshot: "Bigshot One", cursive;
   --font-bitcount: "Bitcount Prop Single", sans-serif;
   --font-libertinus: "Libertinus Math", serif;
   --font-edu: "Edu VIC WA NT Hand", cursive;
@@ -28,6 +50,14 @@
   --font-gravitas: "Gravitas One", serif;
   --font-bree: "Bree Serif", serif;
   --font-stalinist: "Stalinist One", cursive;
+}
+
+
+@font-face {
+  font-family: "Bahianita";
+  src: url("./assets/fonts/Bahianita-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
 }
 
 
@@ -115,15 +145,21 @@ transform:translateY(-1px) scale(.95);
 .shdw2{
 
 
-  box-shadow: 4px 7px 13px rgba(0, 0, 0, 0.560);
+  box-shadow: 10px 7px 13px rgba(0, 0, 0, 0.560);
+}
+.shdw3{
+
+
+  box-shadow: -10px 12px 13px  rgba(0, 0, 0, 0.560);
 }
 
 .bordergradientclass {
   border-radius: 32px;
   padding: 2px;
   background:
-    linear-gradient(to top ,#dfd8d834, #303130) padding-box,
-    linear-gradient(to bottom, #9b4fff 30%, #ff5151 100%) border-box;
+    linear-gradient(to top ,#00000034, #000000) padding-box,
+    linear-gradient(to bottom, #8328f9 30%, #23ee34 100%) border-box;
+
   border: 2px solid transparent;
 }
 
@@ -152,7 +188,9 @@ transform:translateY(-1px) scale(.95);
 
 .bargradient{
 
-background-image: linear-gradient(to right, #2b2d42 30%, #4a4e69 100%);
+  background:
+    linear-gradient(to left ,#00000034, #000000) padding-box,
+    linear-gradient(to right, #8328f9 30%, #23ee34 100%) border-box;
   
 }
 
@@ -236,12 +274,12 @@ background-image: linear-gradient(to right, #2b2d42 30%, #4a4e69 100%);
 
   background: linear-gradient(
     90deg,
-    #0fb24b,
-    #06bc7d,
-    #069daa,
-    #1396d8,
-    #08983f,
-    #5c9be8,
+    #7504f7,
+    #dc19c2,
+    #FF0099,
+    #f99c1a,
+    #FF8038,
+    #f72505,
     #c109ce,
     #5803b9
   );
@@ -256,19 +294,21 @@ background-image: linear-gradient(to right, #2b2d42 30%, #4a4e69 100%);
   animation: gradientMove 20s ease infinite;
 }
 .gradient-text3 { 
-  font-size: 40px;
-  font-weight: 800;
+  font-size: 60px;
+  font-weight: 1000;
+  bottom: 5px;
+  position: relative;
 
   background: linear-gradient(
     120deg,  
-    #054cb7,
-    #e536fc,
+    #0f599a,
+    #14c5aa,
     #0a6fc8,
-    #099146,
+    #0dc560,
     #3f2eae,
-    #7e45f9,
-    #fa25bd,
-    #11b8f0
+    #13e76f,
+    #6816db,
+    #340298
   );
 
   background-size: 300% 300%;
@@ -288,7 +328,7 @@ background-image: linear-gradient(to right, #2b2d42 30%, #4a4e69 100%);
 
 
   background:
-    linear-gradient(to top ,#dfd8d834, #303130) padding-box,
+    linear-gradient(to top ,#00000034, #000000) padding-box,
     linear-gradient(to bottom, #8328f9 30%, #23ee34 100%) border-box;
 
 
@@ -302,5 +342,102 @@ background-image: linear-gradient(to right, #2b2d42 30%, #4a4e69 100%);
     
    
   border: 2px solid transparent;
+}
+
+.stalinist-one-regular {
+  font-family: "Stalinist One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.sekuya-regular {
+  font-family: "Sekuya", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.button-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.button {
+  display: block;
+  font-size: 50px;
+  line-height: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 16px 32px;
+  /* background:
+    linear-gradient(to right,#6B2C91, #1A1A3E) padding-box; */
+
+    background: rgb(231, 231, 231);
+    
+
+  color: black;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+}
+
+
+button:hover{
+
+ background:
+    linear-gradient(to right,#FF0099, #FF8038) padding-box;
+  color:black;
+}
+
+.button-bg {
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  background: linear-gradient(
+    90deg,
+    #FF8038 0%,
+    #FF0099 30.43%,
+    #00EBEB 68.23%,
+    #DB00FF 100%
+  );
+  background-size: 600% 600%;
+  border-radius: 50px;
+  animation: AnimateBorder 4s ease infinite;
+  z-index: 1;
+  transform: translate(-2px, -2px);
+  transition: filter .4s ease-in;
+}
+
+.button-wrapper:hover .button-bg {
+  filter: blur(14px);
+}
+
+@keyframes AnimateBorder {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+} 
+
+
+
+.backimage{
+
+
+  background: url("frontend/src/assets/763992746_2428753097617535_4454437692188539522_n.webp");
+ 
 }
 

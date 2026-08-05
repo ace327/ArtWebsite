@@ -25,7 +25,8 @@ import "@fontsource/teko";
 import "@fontsource/gravitas-one";
 import "@fontsource/bree-serif";
 import "@fontsource/stalinist-one";
-
+import "@fontsource/lobster-two/400.css"; // Regular
+import "@fontsource/lobster-two/700.css"; // Bold
 
 createRoot(document.getElementById('root')).render(
     <BrowserRouter>
