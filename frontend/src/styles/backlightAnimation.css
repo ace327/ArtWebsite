@@ -1,0 +1,55 @@
+.backlight-container {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+}
+
+.backlight-container img {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.backlight-container .overlay {
+  opacity: 0;
+  animation: backlight 3s infinite;
+}
+
+@keyframes backlight {
+  0% {
+    opacity: 0;
+  }
+
+  30% {
+    opacity: 0;
+  }
+
+  35% {
+    opacity: 1;
+  }
+
+  38% {
+    opacity: 0;
+  }
+
+  41% {
+    opacity: 1;
+  }
+
+  44% {
+    opacity: 0;
+  }
+
+  47% {
+    opacity: 1;
+  }
+
+  95% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
