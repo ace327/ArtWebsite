@@ -2,6 +2,7 @@ import "@fontsource/orbitron";
 import "@fontsource/pacifico";
 import "@fontsource/black-ops-one";
 import heartIcon from "../assets/icons8-favorite-64.png"
+import "../styles/shapesAnimation.css";
 const Collabiration = () => {
   return (
     <div>
@@ -16,34 +17,12 @@ const Collabiration = () => {
 
           <h1 className="font-lobster2 text-black text-5xl ml-3">Collabiration</h1>
 
-<div className="cssanimation flex items-center justify-center h-28 w-100 left-90 bottom-9 relative overflow-hidden">
-  <svg
-    viewBox="0 0 180 180"
-    width="180"
-    height="180"
-    className="shape-svg"
-  >
-    <circle className="c6" cx="150" cy="150" r="30" fill="#48fd81" />
 
-    <rect className="c3" x="120" y="0" width="60" height="60" fill="#dda0fc" />
-
-    <path className="c1" d="M0,0 a1,1 0 0,0 60,0" fill="#9ccffb" />
-
-    <rect className="c7" x="120" y="60" width="60" height="60" fill="#1da6e0" />
-
-    <circle className="c2" cx="90" cy="30" r="30" fill="#fc68cc" />
-
-    <rect className="c4" x="60" y="60" width="60" height="120" fill="#f39691" />
-
-    <path className="c8" d="M60,60 a1,1 0 0,0 -60,0" fill="#fd6695" />
-
-    <polygon className="c9" points="0,60 0,120 60,60" fill="#a8befb" />
-
-    <rect className="c5" x="0" y="120" width="60" height="60" fill="#e7e532" />
-  </svg>
-</div>
+          <div className="textess h-24  w-92 bg-gray-200 rounded-3xl left-85 bottom-7 border-3 relative text-3xl font-anton pt-2 pl-4">Proudly partnered with Kalantara</div>
 
         </div>
+
+        
 
 <div className="boxes1 flex">   
 
@@ -61,20 +40,28 @@ const Collabiration = () => {
 
 
 
-<div className="secondbox h-74 w-79 bg-gray-200 border-black border-3 justify-self-end top-43 rounded-3xl ml-9 relative">
+<div className="secondbox h-74 w-79 justify-self-end top-53 rounded-3xl ml-9 relative">
 
 
    
-  <h1 className="h-10 w-30 text-4xl justify-center font-anton pt-4 pl-4">Proudly Partnered with Kalantara</h1>
-  <h1 className="h-10 w-80 text-4xl justify-center font-anton mt-50 pl-4 relative flex">Made With Love
-
-    <div className="img mb-3 relative bottom-3">  
-      
-      <img src={heartIcon} alt="" srcset="" />
-      
-      </div>
-
-  </h1>
+  <div className="cssanimation flex items-center justify-center h-70 w-78 left-90">
+  <svg
+    className="shape-svg"
+    viewBox="0 0 180 180"
+    width="320"
+    height="320"
+  >
+    <circle className="c6" cx="150" cy="150" r="30" fill="#48fd81" />
+    <rect className="c3" x="120" y="0" width="60" height="60" fill="#dda0fc" />
+    <path className="c1" d="M0,0 a1,1 0 0,0 60,0" fill="#9ccffb" />
+    <rect className="c7" x="120" y="60" width="60" height="60" fill="#1da6e0" />
+    <circle className="c2" cx="90" cy="30" r="30" fill="#fc68cc" />
+    <rect className="c4" x="60" y="60" width="60" height="120" fill="#f39691" />
+    <path className="c8" d="M60,60 a1,1 0 0,0 -60,0" fill="#fd6695" />
+    <polygon className="c9" points="0,60 0,120 60,60" fill="#a8befb" />
+    <rect className="c5" x="0" y="120" width="60" height="60" fill="#e7e532" />
+  </svg>
+</div>
 
 
 </div>

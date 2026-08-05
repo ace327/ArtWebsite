@@ -1,0 +1,400 @@
+:root {
+  --time: 8.15s;
+  --delay: 2.25s;
+  --ease: ease-in-out;
+}
+
+.shape-svg {
+  max-width: 260px;
+  overflow: visible;
+  transform: scale(0.7);
+}
+
+
+.c1 {
+  transform-origin: 30px 15px;
+  animation: kf1 var(--time) var(--delay) var(--ease) forwards infinite;
+}
+
+@keyframes kf1 {
+  4% {
+    transform: translate(0px, 0px) rotate(5deg);
+  }
+
+  8% {
+    transform: translate(0px, 0px) rotate(-5deg);
+  }
+
+  12% {
+    transform: translate(0px, 4px) rotate(0deg) scale(1, 0.8);
+  }
+
+  18% {
+    transform: translate(35px, -110px) rotate(-120deg) scale(1);
+  }
+
+  30% {
+    transform: translate(125px, 150vh) rotate(-200deg) scale(1);
+  }
+
+  70% {
+    transform: translate(125px, 150vh) rotate(-200deg) scale(1);
+  }
+
+  82% {
+    transform: translate(35px, -110px) rotate(-120deg) scale(1);
+  }
+
+  88% {
+    transform: translate(0px, 4px) rotate(0deg) scale(1, 0.8);
+  }
+
+  92% {
+    transform: translate(0px, 0px) rotate(-5deg);
+  }
+
+  96% {
+    transform: translate(0px, 0px) rotate(5deg);
+  }
+}
+
+
+.c2 {
+  transform-origin: 90px 15px;
+  animation: kf2 var(--time) var(--delay) var(--ease) forwards infinite;
+}
+
+@keyframes kf2 {
+  15% {
+    transform: translate(0px, 0px);
+  }
+
+  16% {
+    transform: translate(0px, 5px) scale(1, 0.9);
+  }
+
+  24% {
+    transform: translate(40px, -145px) scale(1);
+  }
+
+  34% {
+    transform: translate(65px, 150vh);
+  }
+
+  66% {
+    transform: translate(65px, 150vh);
+  }
+
+  76% {
+    transform: translate(40px, -145px) scale(1);
+  }
+
+  84% {
+    transform: translate(0px, 5px) scale(1, 0.9);
+  }
+
+  85% {
+    transform: translate(0px, 0px);
+  }
+}
+
+
+.c3 {
+  transform-origin: 150px 30px;
+  animation: kf3 var(--time) var(--delay) var(--ease) forwards infinite;
+}
+
+@keyframes kf3 {
+  7% {
+    transform: translate(0px, 0px);
+  }
+
+  8% {
+    transform: translate(0px, -30px);
+  }
+
+  12% {
+    transform: translate(0px, 5px) scale(1, 0.95);
+  }
+
+  18% {
+    transform: translate(0, -110px) rotate(-120deg) scale(1);
+  }
+
+  30% {
+    transform: translate(0, 150vh) rotate(-180deg);
+  }
+
+  70% {
+    transform: translate(0, 150vh) rotate(-180deg);
+  }
+
+  82% {
+    transform: translate(0, -110px) rotate(-120deg) scale(1);
+  }
+
+  88% {
+    transform: translate(0px, 5px) scale(1, 0.95);
+  }
+
+  92% {
+    transform: translate(0px, -30px);
+  }
+
+  93% {
+    transform: translate(0px, 0px);
+  }
+}
+
+
+.c4 {
+  transform-origin: 90px 120px;
+  animation: kf4 var(--time) var(--delay) var(--ease) forwards infinite;
+}
+
+@keyframes kf4 {
+  14% {
+    transform: translate(0px, 0px);
+  }
+
+  15% {
+    transform: translate(0px, -6px) scale(1, 1.1);
+  }
+
+  18% {
+    transform: translate(0px, 24px) scale(1, 0.6);
+  }
+
+  22% {
+    transform: translate(0, -140px) rotate(-120deg) scale(1);
+  }
+
+  25% {
+    transform: translate(-5px, -130px) rotate(-165deg) scale(1, 0.5);
+  }
+
+  32% {
+    transform: translate(0, 150vh) rotate(-180deg) scale(1, 0.5);
+  }
+
+  68% {
+    transform: translate(0, 150vh) rotate(-180deg) scale(1, 0.5);
+  }
+
+  75% {
+    transform: translate(-5px, -130px) rotate(-165deg) scale(1, 0.5);
+  }
+
+  78% {
+    transform: translate(0, -140px) rotate(-120deg) scale(1);
+  }
+
+  82% {
+    transform: translate(0px, 24px) scale(1, 0.6);
+  }
+
+  85% {
+    transform: translate(0px, -6px) scale(1, 1.1);
+  }
+
+  86% {
+    transform: translate(0px, 0px);
+  }
+}
+
+.c5 {
+  transform-origin: 30px 150px;
+  animation: kf5 var(--time) var(--delay) var(--ease) forwards infinite;
+}
+
+@keyframes kf5 {
+  20% {
+    transform: translate(0, 0);
+  }
+
+  23% {
+    transform: translate(0, -32px) scale(1, 2);
+  }
+
+  30% {
+    transform: translate(0, 35px) scale(1, 0);
+  }
+
+  70% {
+    transform: translate(0, 35px) scale(1, 0);
+  }
+
+  77% {
+    transform: translate(0, -32px) scale(1, 2);
+  }
+
+  80% {
+    transform: translate(0, 0);
+  }
+}
+
+
+.c6 {
+  transform-origin: 150px 150px;
+  animation: kf6 var(--time) var(--delay) var(--ease) forwards infinite;
+}
+
+@keyframes kf6 {
+  14% {
+    transform: translate(0, 0);
+  }
+
+  20% {
+    transform: translate(-120px, 0);
+  }
+
+  20.01% {
+    transform: translate(-30px, 0) scale(0);
+  }
+
+  30% {
+    transform: translate(-30px, 0) scale(0);
+  }
+
+  70% {
+    transform: translate(-30px, 0) scale(0);
+  }
+
+  79.99% {
+    transform: translate(-30px, 0) scale(0);
+  }
+
+  80% {
+    transform: translate(-120px, 0);
+  }
+
+  86% {
+    transform: translate(0, 0);
+  }
+}
+
+
+.c7 {
+  transform-origin: 150px 90px;
+  animation: kf7 var(--time) var(--delay) var(--ease) forwards infinite;
+}
+
+@keyframes kf7 {
+  12% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+
+  24% {
+    transform: translate(0, -120px) rotate(-359deg);
+  }
+
+  30% {
+    transform: translate(0, 150vh) rotate(-450deg);
+  }
+
+  70% {
+    transform: translate(0, 150vh) rotate(-450deg);
+  }
+
+  76% {
+    transform: translate(0, -120px) rotate(-359deg);
+  }
+
+  88% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+}
+
+.c8 {
+  transform-origin: 30px 45px;
+  animation: kf8 var(--time) var(--delay) var(--ease) forwards infinite;
+}
+
+@keyframes kf8 {
+  14% {
+    transform: translate(0, 0);
+  }
+
+  16% {
+    transform: translate(0, -3px) scale(1, 1.15);
+  }
+
+  18% {
+    transform: translate(0, 3px) scale(1, 0.925);
+  }
+
+  22% {
+    transform: translate(-15px, -130px) scale(1) rotate(-145deg);
+  }
+
+  26% {
+    transform: translate(-15px, -130px) rotate(-180deg);
+  }
+
+  30% {
+    transform: translate(15px, 150vh) rotate(-270deg);
+  }
+
+  70% {
+    transform: translate(15px, 150vh) rotate(-270deg);
+  }
+
+  74% {
+    transform: translate(-15px, -130px) rotate(-180deg);
+  }
+
+  78% {
+    transform: translate(-15px, -130px) scale(1) rotate(-145deg);
+  }
+
+  82% {
+    transform: translate(0, 3px) scale(1, 0.925);
+  }
+
+  84% {
+    transform: translate(0, -3px) scale(1, 1.15);
+  }
+
+  86% {
+    transform: translate(0, 0);
+  }
+}
+
+.c9 {
+  transform-origin: 30px 90px;
+  animation: kf9 var(--time) var(--delay) var(--ease) forwards infinite;
+}
+
+@keyframes kf9 {
+  15% {
+    transform: translate(0, 0);
+  }
+
+  18% {
+    transform: translate(0, -100px) rotate(90deg) scale(0.8);
+  }
+
+  20% {
+    transform: translate(0, -110px) rotate(145deg) scale(0.75);
+  }
+
+  30% {
+    transform: translate(0, 150vh) rotate(359deg) scale(0.5);
+  }
+
+  70% {
+    transform: translate(0, 150vh) rotate(359deg) scale(0.5);
+  }
+
+  80% {
+    transform: translate(0, -110px) rotate(145deg) scale(0.75);
+  }
+
+  82% {
+    transform: translate(0, -100px) rotate(90deg) scale(0.8);
+  }
+
+  85% {
+    transform: translate(0, 0);
+  }
+}

@@ -6,22 +6,7 @@
 
 
 
-
-@import "tailwindcss";
-
-:root {
-  --time: 8.15s;
-  --delay: 2.25s;
-  --ease: ease-in-out;
-}
-
-/* Animation CSS starts here */
-.shape-svg {
-   max-width:260px;
-    overflow:visible;
-    transform:scale(.7);
-
-}
+import "../styles/shapesAnimation.css";
 
 
 @theme {
