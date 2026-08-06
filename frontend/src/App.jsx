@@ -20,6 +20,11 @@
   import Collabiration from './pages2/Collabiration';
   import LiveCompetion from './pages2/LiveCompetion';
 import DigitalArts from './pages2/DigitalArts';
+import Literature from './pages2/Literature';
+import Artist from './pages2/Artist';
+import ArtRatings from './pages2/ArtRatings';
+import About from './pages2/About';
+import Contact from './pages2/Contact';
 
 
 
@@ -66,6 +71,11 @@ import DigitalArts from './pages2/DigitalArts';
     <Route element={<Collabiration />} path="/Collabiration" />
     <Route element={<LiveCompetion />} path="/Live Competition"/>
     <Route element={<DigitalArts />} path="/Digital Arts"/>
+    <Route element={<Literature />} path="/Literature"/>
+    <Route element={<Artist />} path="/Artist"/>
+    <Route element={<ArtRatings />} path="/Art-Ratings"/>
+    <Route element={<About />} path="/About"/>
+    <Route element={<Contact />} path="/Contact"/>
 
   </Routes>
       

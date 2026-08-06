@@ -296,7 +296,7 @@ window.addEventListener("resize", handleResize);
             <div className="metric">
               LENSING:{" "}
               <span className="val" id="lensing-val">
-                SCHWARZSCHILD
+                SCHWARZSCHILD         
               </span>
             </div>
           </div>

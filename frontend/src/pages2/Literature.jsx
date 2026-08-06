@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import '../index.css'
 
-const DigitalArts = () => {
+const Literature = () => {
   useEffect(() => {
     // Load particles.js from CDN
     const script = document.createElement('script')
@@ -23,7 +23,7 @@ const DigitalArts = () => {
             size: { value: 3, random: true },
             line_linked: {
               enable: true,
-              distance: 150, 
+              distance: 150,
               color: '#ffffff',
               opacity: 0.4,
               width: 1,
@@ -91,4 +91,4 @@ const DigitalArts = () => {
   )
 }
 
-export default DigitalArts
+export default Literature

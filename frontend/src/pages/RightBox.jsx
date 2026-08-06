@@ -69,7 +69,7 @@ const collapsed = boxHeight <= 120 && !expanded;
   </div>
 
     </div>
-  )
+  ) 
 }
 
 export default RightBox
