@@ -22,9 +22,10 @@
 import DigitalArts from './pages2/DigitalArts';
 import Literature from './pages2/Literature';
 import Artist from './pages2/Artist';
-import ArtRatings from './pages2/ArtRatings';
+
 import About from './pages2/About';
 import Contact from './pages2/Contact';
+import WorkShop from './pages2/WorkShop';
 
 
 
@@ -73,9 +74,10 @@ import Contact from './pages2/Contact';
     <Route element={<DigitalArts />} path="/Digital Arts"/>
     <Route element={<Literature />} path="/Literature"/>
     <Route element={<Artist />} path="/Artist"/>
-    <Route element={<ArtRatings />} path="/Art-Ratings"/>
+    <Route element={<WorkShop />} path="/WorkShop"/>
     <Route element={<About />} path="/About"/>
     <Route element={<Contact />} path="/Contact"/>
+
 
   </Routes>
       

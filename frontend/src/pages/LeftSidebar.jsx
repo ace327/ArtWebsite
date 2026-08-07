@@ -59,7 +59,7 @@ const [boxHeight, setBoxHeight] = useState(320);
           </button1>
       </Link>
           <Link to="/Artist"><li className="h-12 w-42 bg-blue-200 text-center rounded-[22px] text-[20px] pt-2 font-serif bn31"><span className='bn31span'>Artist</span></li></Link>
-          <Link to="ArtRatings"><li className="h-12 w-42 bg-blue-200 text-center rounded-[22px] text-[20px] pt-2 font-serif bn31"><span className='bn31span'>Art-Ratings</span></li></Link>
+          <Link to="/WorkShop"><li className="h-12 w-42 bg-blue-200 text-center rounded-[22px] text-[20px] pt-2 font-serif bn31"><span className='bn31span'>WorkShop</span></li></Link>
           <Link to="About"><li className="h-12 w-42 bg-blue-200 text-center rounded-[22px] text-[20px] pt-2 font-serif bn31"><span className='bn31span'>About</span></li></Link>
           <Link to="Contact"><li className="h-12 w-42 bg-blue-200 text-center rounded-[22px] text-[20px] pt-2 font-serif bn31"><span className='bn31span'>Contact</span></li></Link>
 
