@@ -19,10 +19,10 @@ const collapsed = boxHeight <= 120 && !expanded;
   const currentHeight = expanded ? 320 : boxHeight;
 
   const cards = [
-  { image: img1, title: "Live Competition" },
-  { image: img2, title: "Digital Arts" },
-  { image: img3, title: "Collabiration" },
-  { image: img4, title: "Literature" },
+    { image: img2, title: "Nail Art" },
+    { image: img4, title: "Resin Art" },
+    { image: img1, title: "Live Competition" },
+    { image: img3, title: "Collabiration" },
 ];
                     useEffect(() => {
   const handleScroll = () => {

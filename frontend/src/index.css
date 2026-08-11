@@ -506,3 +506,15 @@ button:hover{
  
 }
 
+.abou {
+  position: relative;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.164);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.abou h1 {
+  position: relative;
+  z-index: 1;
+}

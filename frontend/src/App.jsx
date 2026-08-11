@@ -56,7 +56,7 @@ import WorkShop from './pages2/WorkShop';
     <LeftSidebar />
 
 
-  <InputBarContainer />
+  {/* <InputBarContainer /> */}
 
 
 

@@ -18,7 +18,26 @@ const WorkShop = () => {
           </h1>
         </div>
 
-          <div className="box1 h-73 w-243 mt-4  rounded-3xl bg-gray-300 flex">
+          <div className="box1 h-73 w-238 mt-4  rounded-3xl bg-gray-300 flex">
+            <div className="image h-73 w-80 rounded-l-3xl bg-gray-600 shdw2 rounded-r-3xl  z-5">
+              <div className="acralic"></div>
+            </div>
+            <div className="bardown "> 
+              <div className="acralic h-13 w-163 bg-amber-400 rounded-tr-3xl right-3 relative z-2">
+                
+                </div> 
+
+                <div className="profile h-14 w-auto mt-3 flex">
+
+
+                <div className="pro h-14 w-14 rounded-4xl  ml-3 bg-blue-400"></div> 
+
+                <h1 className="font-archivo text-3xl top-2 left-4 relative">Profile</h1>            
+                </div>
+            </div>
+          </div>
+
+          <div className="box1 h-73 w-238 mt-4  rounded-3xl bg-gray-300 flex">
             <div className="image h-73 w-80 rounded-l-3xl bg-gray-600 shdw2 rounded-r-3xl  z-5">
               <div className="acralic"></div>
             </div>
