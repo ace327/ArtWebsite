@@ -518,3 +518,79 @@ button:hover{
   position: relative;
   z-index: 1;
 }
+
+
+@keyframes textGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.gradient-text5 {
+  background: linear-gradient(
+    90deg,
+    #ffffff,
+    #ffffff,
+    #ffffff,
+    #222121,
+    #fefcfc,
+    #ffffff,
+    #ffffff
+  );
+  background-size: 300% 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  animation: textGradient 5s  infinite;
+}
+
+
+.kalantara-gold-text {
+   /* Fits this luxury aesthetic */
+  font-weight: 500;
+  background: linear-gradient(135deg, #ffc44d 0%, #ffe4b1 25%, #ffc251 50%, #f19f1a 75%, #674003 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+
+
+.repeat-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  line-height: 0.85;
+}
+
+.repeat-line {
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: transparent;
+
+  -webkit-text-stroke: 1.5px #777;
+  text-stroke: 1.5px #777;
+}
+
+.repeat-line.active {
+  color: rgb(233, 183, 47);
+  -webkit-text-stroke: 0;
+  text-stroke: 0;
+}
+
+.fontu{
+
+
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

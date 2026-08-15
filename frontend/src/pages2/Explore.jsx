@@ -14,10 +14,119 @@ const Explore = () => {
 
 
         <div className="boxes flex gap-2 relative left-56 top-23">
-          <div className="box1 h-95 w-58 rounded-2xl bg-gray-900"></div>
-          <div className="box1 h-95 w-58 rounded-2xl bg-gray-900"></div>
-          <div className="box1 h-95 w-58 rounded-2xl bg-gray-900"></div>
-          <div className="box1 h-95 w-58 rounded-2xl bg-gray-900"></div>
+          <div className="box1 h-95 w-58 rounded-2xl border-2 bg-gray-400">
+
+
+ <div className=" top-77 rounded-b-3xl  relative profile h-17  flex"> 
+          
+          
+          
+          
+          <div className="img h-13 rounded-[100px] top-3  relative ml-1  bg-gray-600 w-13">
+            
+            
+            </div>
+            
+            
+            
+            <div className="name">    
+
+
+               <h1 className="text-[25px] ml-1 mt-5">Profile Name</h1>
+
+            </div>
+            
+            
+             </div>
+
+
+
+          </div>
+          <div className="box1 h-95 w-58 rounded-2xl border-2 bg-gray-400">
+
+
+ <div className=" top-77 rounded-b-3xl  relative profile h-17  flex"> 
+          
+          
+          
+          
+          <div className="img h-13 rounded-[100px] top-3  relative ml-1  bg-gray-600 w-13">
+            
+            
+            </div>
+            
+            
+            
+            <div className="name">    
+
+
+               <h1 className="text-[25px] ml-1 mt-5">Profile Name</h1>
+
+            </div>
+            
+            
+             </div>
+
+
+
+          </div>
+          <div className="box1 h-95 w-58 rounded-2xl border-2 bg-gray-400">
+
+
+ <div className=" top-77 rounded-b-3xl  relative profile h-17  flex"> 
+          
+          
+          
+          
+          <div className="img h-13 rounded-[100px] top-3  relative ml-1  bg-gray-600 w-13">
+            
+            
+            </div>
+            
+            
+            
+            <div className="name">    
+
+
+               <h1 className="text-[25px] ml-1 mt-5">Profile Name</h1>
+
+            </div>
+            
+            
+             </div>
+
+
+
+          </div>
+          <div className="box1 h-95 w-58 rounded-2xl border-2 bg-gray-400">
+
+
+ <div className=" top-77 rounded-b-3xl  relative profile h-17  flex"> 
+          
+          
+          
+          
+          <div className="img h-13 rounded-[100px] top-3  relative ml-1  bg-gray-600 w-13">
+            
+            
+            </div>
+            
+            
+            
+            <div className="name">    
+
+
+               <h1 className="text-[25px] ml-1 mt-5">Profile Name</h1>
+
+            </div>
+            
+            
+             </div>
+
+
+
+          </div>
+         
         </div>
 
         <div className="youarexploring h-30 w-78 left-61 relative top-88">
@@ -48,9 +157,71 @@ lobster2
         
           </div>
       <div className="tectanglecontaer left-56 relative flex gap-2">
-        <div className="rectanglearts h-58 w-95 bg-gray-900 relative rounded-2xl"></div>
-        <div className="rectanglearts h-58 w-95 bg-gray-900 relative rounded-2xl"></div>
-        <div className="rectanglearts h-58 w-95 bg-gray-900 relative rounded-2xl"></div>
+        <div className="rectanglearts h-58 w-95 bg-gray-400 border-2  relative rounded-2xl "> <div className=" top-40 rounded-b-3xl  relative profile h-17 w-auto flex"> 
+          
+          
+          
+          
+          <div className="img h-13 rounded-[100px] top-3  relative ml-1  bg-gray-600 w-13">
+            
+            
+            </div>
+            
+            
+            
+            <div className="name">    
+
+
+               <h1 className="text-[25px] ml-2 mt-5">Profile Name</h1>
+
+            </div>
+            
+            
+             </div></div>
+        <div className="rectanglearts h-58 w-95 bg-gray-400 border-2  relative rounded-2xl "> <div className=" top-40 rounded-b-3xl  relative profile h-17 w-auto flex"> 
+          
+          
+          
+          
+          <div className="img h-13 rounded-[100px] top-3  relative ml-1  bg-gray-600 w-13">
+            
+            
+            </div>
+            
+            
+            
+            <div className="name">    
+
+
+               <h1 className="text-[25px] ml-2 mt-5">Profile Name</h1>
+
+            </div>
+            
+            
+             </div></div>
+        <div className="rectanglearts h-58 w-95 bg-gray-400 border-2  relative rounded-2xl "> <div className=" top-40 rounded-b-3xl  relative profile h-17 w-auto flex"> 
+          
+          
+          
+          
+          <div className="img h-13 rounded-[100px] top-3  relative ml-1  bg-gray-600 w-13">
+            
+            
+            </div>
+            
+            
+            
+            <div className="name">    
+
+
+               <h1 className="text-[25px] ml-2 mt-5">Profile Name</h1>
+
+            </div>
+            
+            
+             </div></div>
+       
+          
 
 
       </div>

@@ -32,13 +32,13 @@ const About = () => {
 
           <div className="boxes w-378 h-153">
 
-            <div className="abou  h-142 top-2 w-130 border-4 border-red-300 text-center ml-53 relative">
-              <h1 className="text-8xl text-gray-500 font-light">
+            <div className="abou  h-142 top-2 w-130 border-4 border-red-300 text-center ml-53 relative rounded-4xl">
+              <h1 className="text-8xl text-gray-400 font-light mt-3 gradient-text5">
                 About Us
               </h1>
 
 
-              <h4 className="text-white mt-16  ml-5 mr-5 text-[20px]">
+              <h4 className="text-white mt-13  ml-5 mr-5 text-[20px]">
                 
                 
                 <h1 className="text-[38px]">
@@ -54,10 +54,10 @@ const About = () => {
           </div>
 
 
-          <div className="second bg-black h-160 w-378 flex gap-20 mt-10"> 
+          <div className="second bg-black h-160 w-378 flex gap-4 mt-10"> 
         
             
-            <div className="para left-32 relative h-70 w-197 mt-5  rounded-4xl ">
+            <div className="para left-32 relative h-70 w-197 mt-5  rounded-4xl ml-20">
 
 
               h1 
@@ -79,7 +79,7 @@ const About = () => {
 
  <h3   className="text-[30px] text-white  "> • ​Modern & Trendy Crafts (Coming Soon):  </h3> <h4 className="left-6 relative">
   
-  Get ready for expressive, modern mediums like Nail Art and Resin Art—bringing interactive showcases and specialized masterclasses to your fingertips!
+  Get ready for expressive, modern mediums like Nail Art and Resin Art—bringing interactive <br /> showcases and specialized masterclasses to your fingertips!
   
   
   </h4>

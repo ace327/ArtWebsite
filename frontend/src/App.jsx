@@ -26,6 +26,7 @@ import Artist from './pages2/Artist';
 import About from './pages2/About';
 import Contact from './pages2/Contact';
 import WorkShop from './pages2/WorkShop';
+import ProfilePage from './pages2/ProfilePage';
 
 
 
@@ -71,12 +72,13 @@ import WorkShop from './pages2/WorkShop';
     <Route element={<Explore />} path="/explore" />
     <Route element={<Collabiration />} path="/Collabiration" />
     <Route element={<LiveCompetion />} path="/Live Competition"/>
-    <Route element={<DigitalArts />} path="/Digital Arts"/>
-    <Route element={<Literature />} path="/Literature"/>
+    <Route element={<DigitalArts />} path="/Nail Art"/>
+    <Route element={<Literature />} path="/Resin Art"/>
     <Route element={<Artist />} path="/Artist"/>
     <Route element={<WorkShop />} path="/WorkShop"/>
     <Route element={<About />} path="/About"/>
     <Route element={<Contact />} path="/Contact"/>
+    <Route element={<ProfilePage />} path="/ProfilePage" />
 
 
   </Routes>
