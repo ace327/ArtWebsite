@@ -27,6 +27,8 @@ import About from './pages2/About';
 import Contact from './pages2/Contact';
 import WorkShop from './pages2/WorkShop';
 import ProfilePage from './pages2/ProfilePage';
+import PicturePage from './pages2/PicturePage';
+import ProfileEditPage from './pages2/ProfileEditPage';
 
 
 
@@ -44,10 +46,15 @@ import ProfilePage from './pages2/ProfilePage';
             <div className="navbar relative top-0 z-50 h-20 bg-gray-200 flex justify-between sticky">
               <div className="heading text-3xl w-360 h-18 mt-1 bg-gray- shdw2 border rounded-[50px] ml-2">   
               <h1 className='mt-1 text-6xl text-black ml-22 font-lobster2'>
-                Kalantara   
+                Skioma  
               </h1> 
               </div>
-            <div className="box-email bg-gray-800 h-18 m-1 w-18 rounded-[100px]"></div>
+            <Link to="/ProfileEditPage">        
+            
+                  <div className="box-email  bg-gray-800 h-18 m-1 w-18 rounded-[100px]"></div>
+                  </Link>
+                  
+                  
             </div>
 
 
@@ -57,7 +64,7 @@ import ProfilePage from './pages2/ProfilePage';
     <LeftSidebar />
 
 
-  {/* <InputBarContainer /> */}
+  <InputBarContainer />
 
 
 
@@ -79,6 +86,8 @@ import ProfilePage from './pages2/ProfilePage';
     <Route element={<About />} path="/About"/>
     <Route element={<Contact />} path="/Contact"/>
     <Route element={<ProfilePage />} path="/ProfilePage" />
+    <Route element={<PicturePage />} path="/PicturePage"/>
+    <Route element={<ProfileEditPage />} path="/ProfileEditPage"/>
 
 
   </Routes>

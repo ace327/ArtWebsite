@@ -19,7 +19,7 @@ const collapsed = boxHeight <= 120 && !expanded;
   const currentHeight = expanded ? 320 : boxHeight;
 
   const cards = [
-    { image: img2, title: "Nail Art" },
+    { image: img2, title: "WorkShop" },
     { image: img4, title: "Resin Art" },
     { image: img1, title: "Live Competition" },
     { image: img3, title: "Collabiration" },

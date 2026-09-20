@@ -1,16 +1,30 @@
 @import "tailwindcss";
-@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400&family=Pacifico&family=Black+Ops+One&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Sekuya&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Bahianita&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Bigshot+One&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Orbitron:wght@400&family=Pacifico&family=Black+Ops+One&family=Sekuya&family=Bahianita&family=Bigshot+One&family=Stalinist+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Poiret+One&family=Sekuya&family=Stalinist+One&display=swap");   
 
 
 
 
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&family=Dela+Gothic+One&display=swap");
 
+@import "tailwindcss";
 
 @theme {
+  --font-poiret: "Poiret One", cursive;
+  --font-dela: "Dela Gothic One", sans-serif;
+}
+
+@theme {
+
+    --font-googlesans: "Google Sans Flex", sans-serif;
+  --font-poiret: "Poiret One", cursive;
   --font-sekuya: "Sekuya", sans-serif;
+  --font-stalinist: "Stalinist One", cursive;
+  --font-googlesans: "Google Sans Flex", sans-serif;
+  --font-sekuya: "Sekuya", sans-serif;
+  --font-stalinist: "Stalinist One", cursive;
+
   --font-bahianita: "Bahianita", cursive;
   --font-orbitron: "Orbitron", sans-serif;
   --font-playfair: "Playfair Display", serif;
@@ -19,7 +33,7 @@
   --font-anton: "Anton", sans-serif;
   --font-caveat: "Caveat", cursive;
   --font-pacifico: "Pacifico", cursive;
-   --font-bigshot: "Bigshot One", cursive;
+  --font-bigshot: "Bigshot One", cursive;
   --font-bitcount: "Bitcount Prop Single", sans-serif;
   --font-libertinus: "Libertinus Math", serif;
   --font-edu: "Edu VIC WA NT Hand", cursive;
@@ -34,7 +48,6 @@
   --font-teko: "Teko", sans-serif;
   --font-gravitas: "Gravitas One", serif;
   --font-bree: "Bree Serif", serif;
-  --font-stalinist: "Stalinist One", cursive;
 }
 
 
@@ -44,8 +57,6 @@
   font-weight: 400;
   font-style: normal;
 }
-
-
 
 /* ---- reset for particles wrapper ---- */
 .particles-container canvas {
@@ -168,7 +179,8 @@ transform:translateY(-1px) scale(.95);
   z-index: 2;
 }
 
-.bn31:hover {
+.bn31:hover,
+.bn31.active {
   color: #fff;
 }
 
@@ -183,11 +195,10 @@ transform:translateY(-1px) scale(.95);
   width: 100%;
 }
 
-.bn31:hover .bn31span {
+.bn31:hover .bn31span,
+.bn31.active .bn31span {
   background: transparent;
 }
-
-
 .gradientclass {
 
   
@@ -593,4 +604,80 @@ button:hover{
 
 
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+
+
+.slider {
+    height: 226px;
+    margin: auto;
+    position: relative;
+    width: 90%;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    
+}
+
+.slide-track {
+    display: flex;
+    width: calc(250px * 18);
+    animation: scroll 60s linear infinite;
+}
+
+.slide-track:hover {
+    animation-play-state: paused;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-250px * 9));
+    }
+}
+
+.slide {
+    height: 200px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    perspective: 100px;
+  
+}
+
+img {
+   
+    transition: transform 0.5s;
+}
+
+img:hover {
+    transform: translateZ(20px);
+  
+}
+
+.slider::before,
+.slider::after {
+    background: transparent,
+            transparent;
+    content: "";
+    height: 100%;
+    position: absolute;
+    width: 15%;
+    z-index: 2;
+}
+
+.slider::before {
+    left: 0;
+    top: 0;
+}
+
+.slider::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
 }

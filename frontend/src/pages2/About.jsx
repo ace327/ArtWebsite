@@ -32,7 +32,7 @@ const About = () => {
 
           <div className="boxes w-378 h-153">
 
-            <div className="abou  h-142 top-2 w-130 border-4 border-red-300 text-center ml-53 relative rounded-4xl">
+            <div className="abou  h-142 top-21 w-130 border-4 border-red-300 text-center ml-53 relative rounded-4xl ">
               <h1 className="text-8xl text-gray-400 font-light mt-3 gradient-text5">
                 About Us
               </h1>
