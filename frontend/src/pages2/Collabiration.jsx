@@ -3,6 +3,7 @@ import "@fontsource/pacifico";
 import "@fontsource/black-ops-one";
 import heartIcon from "../assets/icons8-favorite-64.png"
 import "../styles/shapesAnimation.css";
+import { Link } from "react-router-dom";
 const Collabiration = () => {
   return (
     <div>
@@ -27,14 +28,76 @@ const Collabiration = () => {
 <div className="boxes1 flex">   
 
 
-<div className="collboxes flex gap-10">
+<div className="collboxes flex gap-10 ">
 
-  <div className="collabox1 h-125 rounded-3xl w-110 bg-gray-900 mt-4 hover:">
+
+  <Link to="/Collabiration2" >
+
+  <div className="collabox1 h-125 rounded-3xl w-230 bg-gray-900 mt-5 flex flex-col
+                transition-transform duration-500 ease-in-out
+                hover:scale-105 hover:z-20 ">
+
+
+    <div className="collabar h-34 rounded-t-3xl bg-gray-800   w-230 items-center flex">   
+      <div className="logocolla h-25 w-25 bg-gray-700 ml-7 rounded-[100px]">
+
+
+        <img src=" https://i.pinimg.com/736x/38/2a/6a/382a6a1bfcd00bb9a0455ab2cca59e94.jpg" alt=""  className="h-25 w-25 rounded-[100px]"/>
+
+      </div>
+      <div className="collatext">
+                      
+                     <h1 className="text-[30px] font-anton tracking-[0.9px] ml-5 text-white">Shri Vishwakarma Sahitya Dharma Prachar Parishad</h1>
+      </div>
+
+
+    </div>
+    <div className="belowBox collabBelowGradient h-92 rounded-b-3xl w-230 flex">
+
+  <div className="collab-slider w-125 h-92">
+
+    <div className="slide-card card-1">
+      <div className="slide-image image-1"></div>
+      <h2>Julien Nicaud</h2>
+    </div>
+
+    <div className="slide-card card-2">
+      <div className="slide-image image-2"></div>
+      <h2>Blackstars Studio</h2>
+    </div>
+
+    <div className="slide-card card-3">
+      <div className="slide-image image-3"></div>
+      <h2>Ron Baranov</h2>
+    </div>
+
+    <div className="slide-card card-4">
+      <div className="slide-image image-4"></div>
+      <h2>Jagger Waters</h2>
+    </div>
+
+    <div className="slide-card card-5">
+      <div className="slide-image image-5"></div>
+      <h2>AI Videomaker</h2>
+    </div>
 
   </div>
-  <div className="collabox2 h-125 rounded-3xl w-110 bg-gray-900 mt-4">
 
+  <div className="textCol rounded- h-92 w-175 rounded-3xl">
+
+    <h1 className="text-black text-2xl text-center font-serif  mt-2 mr-5">
+      
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis esse fuga qui consequuntur officia corporis omnis amet vero labore nam, tempora totam autem commodi dignissimos? Enim nisi dolores facilis deleniti labore, ea architecto, quos aliquam, quo optio nemo recusandae! Animi rem possimus harum accusamus voluptas laudantium odit delectus 
+      
+      
+      </h1>
   </div>
+
+</div>
+  </div>
+
+  </Link>
+ 
 </div>
 
 
